@@ -9,17 +9,33 @@ public class PlaneController : MonoBehaviour
     private const float mainBulletSpeed = 15f;
     private const float subBulletSpeed = 20f;
     private Camera cam;
+    private int health;
+    private int nbEscort;
 
     [SerializeField]
     private GameObject bulletPrefab;
     [SerializeField]
-    private Text mainGunText, subGun1Text, subGun2Text;
+    private Text mainGunText, subGun1Text, subGun2Text, escortText, healthText;
     private int mainGunMun, subGunMun;
 
     private const float refFireRateMain = .007f; // 900 rounds per minute
     private float fireRateSub;
     private const float refFireRateSub = .015f; // 520 rounds per minutes
     private float fireRateMain;
+
+    public void TakeDamage(int damage)
+    {
+        health -= damage;
+        if (health <= 0)
+            Destroy(gameObject);
+        healthText.text = health + "%";
+    }
+
+    public void DamageEscort()
+    {
+        nbEscort--;
+        escortText.text = nbEscort.ToString();
+    }
 
     private void Start()
     {
@@ -28,6 +44,8 @@ public class PlaneController : MonoBehaviour
         fireRateSub = 0f;
         mainGunMun = 500;
         subGunMun = 60;
+        health = 100;
+        nbEscort = 3;
     }
 
     private void Update()
