@@ -3,18 +3,31 @@
 public class EnemySpawner : MonoBehaviour
 {
     [SerializeField]
-    private GameObject enemySeaplane;
+    private GameObject enemySeaplane, torpedoBomber;
 
-    private readonly Vector2 refTimer = new Vector2(3f, 6f);
+    private struct EnemyPos
+    {
+        public EnemyPos(Vector2 pos, GameObject enemy)
+        {
+            this.pos = pos;
+            this.enemy = enemy;
+        }
+
+        public Vector2 pos;
+        public GameObject enemy;
+    }
+
+    private readonly Vector2 refTimer = new Vector2(2f, 4f);
     private float timer;
 
-    private readonly Vector2[][] formations = new Vector2[][] {
-        Single(), Triangle(), VerLine(), HorLine()
-    };
+    private EnemyPos[][] formations;
 
     private void Start()
     {
         timer = Random.Range(refTimer.x, refTimer.y);
+        formations = new EnemyPos[][] {
+            Single(), Triangle(), VerLine(), HorLine(), Escort(), Diamand()
+        };
     }
 
     private void Update()
@@ -24,31 +37,42 @@ public class EnemySpawner : MonoBehaviour
         {
             timer = Random.Range(refTimer.x, refTimer.y);
             float y = Random.Range(-3f, 3f);
-            foreach (Vector2 v in formations[Random.Range(0, formations.Length)])
-                Destroy(Instantiate(enemySeaplane, v + new Vector2(15f, y), Quaternion.identity), 10f);
+            foreach (EnemyPos v in formations[Random.Range(0, formations.Length)])
+                Destroy(Instantiate(v.enemy, v.pos + new Vector2(15f, y), Quaternion.identity), 10f);
         }
     }
 
-    private static Vector2[] Single()
+    private EnemyPos[] Single()
     {
-        return (new Vector2[] { new Vector2(0f, 0f) });
+        return (new EnemyPos[] { new EnemyPos(new Vector2(0f, 0f), enemySeaplane) });
     }
 
-    private static Vector2[] Triangle()
+    private EnemyPos[] Triangle()
     {
-        return (new Vector2[] { new Vector2(0f, 0f), new Vector2(1f, .5f), new Vector2(1f, -.5f),
-                                new Vector2(2f, 0f), new Vector2(2f, -1f), new Vector2(2f, 1f)});
+        return (new EnemyPos[] { new EnemyPos(new Vector2(0f, 0f), enemySeaplane), new EnemyPos(new Vector2(1f, .5f), enemySeaplane), new EnemyPos(new Vector2(1f, -.5f), enemySeaplane),
+                                new EnemyPos(new Vector2(2f, 0f), enemySeaplane), new EnemyPos(new Vector2(2f, -1f), enemySeaplane), new EnemyPos(new Vector2(2f, 1f), enemySeaplane) });
     }
 
-    private static Vector2[] VerLine()
+    private EnemyPos[] VerLine()
     {
-        return (new Vector2[] { new Vector2(0f, 0f), new Vector2(0f, -.5f), new Vector2(0f, .5f),
-                                new Vector2(0f, -1f), new Vector2(0f, 1f)});
+        return (new EnemyPos[] { new EnemyPos(new Vector2(0f, 0f), enemySeaplane), new EnemyPos(new Vector2(0f, .5f), enemySeaplane), new EnemyPos(new Vector2(0f, -.5f), enemySeaplane),
+                                new EnemyPos(new Vector2(0f, -1f), enemySeaplane), new EnemyPos(new Vector2(0f, 1f), enemySeaplane) });
     }
 
-    private static Vector2[] HorLine()
+    private EnemyPos[] HorLine()
     {
-        return (new Vector2[] { new Vector2(0f, 0f), new Vector2(1f, 0f), new Vector2(2f, 0f),
-                                new Vector2(3f, 0f), new Vector2(4f, 0f)});
+        return (new EnemyPos[] { new EnemyPos(new Vector2(0f, 0f), enemySeaplane), new EnemyPos(new Vector2(1f, 0f), enemySeaplane), new EnemyPos(new Vector2(2f, 0f), enemySeaplane),
+                                new EnemyPos(new Vector2(3f, 0f), enemySeaplane), new EnemyPos(new Vector2(4f, 0f), enemySeaplane) });
+    }
+
+    private EnemyPos[] Escort()
+    {
+        return (new EnemyPos[] { new EnemyPos(new Vector2(1f, 0f), torpedoBomber), new EnemyPos(new Vector2(0f, .5f), enemySeaplane), new EnemyPos(new Vector2(0f, -.5f), enemySeaplane) });
+    }
+
+    private EnemyPos[] Diamand()
+    {
+        return (new EnemyPos[] { new EnemyPos(new Vector2(0f, 0f), enemySeaplane), new EnemyPos(new Vector2(1f, 1f), enemySeaplane), new EnemyPos(new Vector2(1f, -1f), enemySeaplane),
+                                new EnemyPos(new Vector2(2f, 0f), enemySeaplane), new EnemyPos(new Vector2(1f, 0f), torpedoBomber)});
     }
 }
