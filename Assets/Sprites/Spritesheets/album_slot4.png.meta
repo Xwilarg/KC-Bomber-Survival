@@ -1,0 +1,1095 @@
+fileFormatVersion: 2
+guid: c77d900cfe0416843958f7e7c8dd7a91
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: album_slot4_0
+    21300002: album_slot4_1
+    21300004: album_slot4_2
+    21300006: album_slot4_3
+    21300008: album_slot4_4
+    21300010: album_slot4_5
+    21300012: album_slot4_6
+    21300014: album_slot4_7
+    21300016: album_slot4_8
+    21300018: album_slot4_9
+    21300020: album_slot4_10
+    21300022: album_slot4_11
+    21300024: album_slot4_12
+    21300026: album_slot4_13
+    21300028: album_slot4_14
+    21300030: album_slot4_15
+    21300032: album_slot4_16
+    21300034: album_slot4_17
+    21300036: album_slot4_18
+    21300038: album_slot4_19
+    21300040: album_slot4_20
+    21300042: album_slot4_21
+    21300044: album_slot4_22
+    21300046: album_slot4_23
+    21300048: album_slot4_24
+    21300050: album_slot4_25
+    21300052: album_slot4_26
+    21300054: album_slot4_27
+    21300056: album_slot4_28
+    21300058: album_slot4_29
+    21300060: album_slot4_30
+    21300062: album_slot4_31
+    21300064: album_slot4_32
+    21300066: album_slot4_33
+    21300068: album_slot4_34
+    21300070: album_slot4_35
+    21300072: album_slot4_36
+    21300074: album_slot4_37
+    21300076: album_slot4_38
+    21300078: album_slot4_39
+    21300080: album_slot4_40
+    21300082: album_slot4_41
+    21300084: album_slot4_42
+    21300086: album_slot4_43
+    21300088: album_slot4_44
+    21300090: album_slot4_45
+    21300092: album_slot4_46
+  externalObjects: {}
+  serializedVersion: 6
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: album_slot4_0
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 952
+        width: 109
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eaef0bb0d59d9d4dae803519af4e8eb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: album_slot4_1
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 952
+        width: 109
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97478acd1e5214448b11329c7e44ab02
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: album_slot4_2
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 952
+        width: 109
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cf9a86ab354d6a4e94ae6e2fac87999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: album_slot4_3
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 952
+        width: 109
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05744a8fd89850648ac2427e615b9a4e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: album_slot4_4
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 952
+        width: 109
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad624d088cbd43940a2e8d969db97fa1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: album_slot4_5
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 952
+        width: 109
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02ce9df8cbdb1e44e8173bb2944d0ed4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: album_slot4_6
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 948
+        width: 109
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f36657160314da945864c5da32f4835f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: album_slot4_7
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 797
+        width: 109
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8d013ccd957eda4aab6eddcb1b3b3a1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: album_slot4_8
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 797
+        width: 109
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76dbfbf25f94571469eed8410ab6c291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: album_slot4_9
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 797
+        width: 109
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32601fb30e4a86649a5f5c0506f9daea
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: album_slot4_10
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 797
+        width: 109
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5620b5b666ef14f4b83d2a37d27db654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: album_slot4_11
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 797
+        width: 109
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8634d5eb5a109a448923f1e18fa5eae9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: album_slot4_12
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 797
+        width: 109
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c37bf29291d3064c870919ed0acec76
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: album_slot4_13
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 793
+        width: 109
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c50c51e235f797a4ba2525eefec091c0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: album_slot4_14
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 642
+        width: 109
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c443c4586bade345a4596f2da0de156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: album_slot4_15
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 642
+        width: 109
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d14807bcc04d76444984e5cdcd9e6cd1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: album_slot4_16
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 642
+        width: 109
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52f1bee40c88bc34586cedc9e09b49ac
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: album_slot4_17
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 642
+        width: 109
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeef35f9273b1f74e8de487f2d6ba66e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: album_slot4_18
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 642
+        width: 109
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f201a34294b14b642b00e3f94bda15d0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: album_slot4_19
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 642
+        width: 109
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6515fbbfe3c43f6479565afdd130108a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: album_slot4_20
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 638
+        width: 109
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69f49a7ee6794164b989f0f68437a4ce
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: album_slot4_21
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 483
+        width: 109
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a0b211e73f714c4e9a2099f71e39246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: album_slot4_22
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 483
+        width: 109
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 112ca87acdd245a4c8737461bd8efd9a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: album_slot4_23
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 483
+        width: 109
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4681a6fae6284d34ba2d4d98456c8e31
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: album_slot4_24
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 487
+        width: 109
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01ebda74a31b19944b7b15d48815bdc5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: album_slot4_25
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 487
+        width: 109
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99d3578f710fcd74bb7ad7831f369927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: album_slot4_26
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 487
+        width: 109
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 753e39e52be48574dbe9009decd26711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: album_slot4_27
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 483
+        width: 109
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6ca6e498fb96f740b417c37e5e4c0cc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: album_slot4_28
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 332
+        width: 109
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78e66d35c1773fe44a50f0bd53e88f99
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: album_slot4_29
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 332
+        width: 109
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ed3891c3700c6644a1119b02b57d89b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: album_slot4_30
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 332
+        width: 109
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8610bad6f0cdf4e4f81188df66bbd491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: album_slot4_31
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 332
+        width: 109
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb5033786491e104487d21c8cd619b3b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: album_slot4_32
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 332
+        width: 109
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d29abd11f09cbd4ca0487a0f58a9db8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: album_slot4_33
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 332
+        width: 109
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98a7e1a3cbe9b5e4d9e324db16aef7b8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: album_slot4_34
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 328
+        width: 109
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bda70cbb7be19c2459c8ea4cd6d3bfb2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: album_slot4_35
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 173
+        width: 109
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b09f88f09e0d1334fb2ce48fc7b2481e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: album_slot4_36
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 173
+        width: 109
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d1e23e715223ca448663f2f8fcd7f4f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: album_slot4_37
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 173
+        width: 109
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 675328747bdea3d43941844f52786090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: album_slot4_38
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 177
+        width: 109
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 489e1dbe79a63364ab744769b11142ec
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: album_slot4_39
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 173
+        width: 109
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0669428ee035afb439145f47af39c3d9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: album_slot4_40
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 173
+        width: 109
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b170f5543c2a70947b9908b2b5f451d3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: album_slot4_41
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 177
+        width: 109
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30d40daba82f5124a9e3092e7df76eaa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: album_slot4_42
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 18
+        width: 109
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef42a0c1c83e23c49ad0976bf111516e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: album_slot4_43
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 22
+        width: 109
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1557e8cf14a1348419121e2b329caad7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: album_slot4_44
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 22
+        width: 109
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d5cf526eb4161349906cdd497908689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: album_slot4_45
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 22
+        width: 109
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cb7bfd56ddc6de4b88851eb42b3429a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: album_slot4_46
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 22
+        width: 109
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b33121be1c8b1fb4d8ee76ce2b4d5ed8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 09845c5274724b740b8318848a581ca9
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
