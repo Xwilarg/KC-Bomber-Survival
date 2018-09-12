@@ -37,6 +37,31 @@ public class PlaneController : MonoBehaviour
         escortText.text = nbEscort.ToString();
     }
 
+    public void RefillMain()
+    {
+        mainGunMun += 200;
+        if (mainGunMun > 500)
+            mainGunMun = 500;
+        mainGunText.text = mainGunMun.ToString();
+    }
+
+    public void RefillSub()
+    {
+        subGunMun = 30;
+        if (subGunMun > 60)
+            subGunMun = 60;
+        subGun1Text.text = subGunMun.ToString();
+        subGun2Text.text = subGunMun.ToString();
+    }
+
+    public void RefillHealth()
+    {
+        health += 30;
+        if (health > 100)
+            health = 100;
+        healthText.text = health + "%";
+    }
+
     private void Start()
     {
         cam = Camera.main;

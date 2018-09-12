@@ -822,6 +822,10 @@ MonoBehaviour:
   torpedoBomber: {fileID: 1986450661261848, guid: dce00fd0f0b05074a84712d76e762e17,
     type: 2}
   player: {fileID: 4871987}
+  powerups:
+  - {fileID: 1673323166919788, guid: eb271d75f9d50cf4aad177762702deb3, type: 2}
+  - {fileID: 1315851397480228, guid: d8d66590210901e48892116cc937492a, type: 2}
+  - {fileID: 1618940382300096, guid: 41c5004b7f94c944bb35f7c7c6146620, type: 2}
 --- !u!1 &903654502
 GameObject:
   m_ObjectHideFlags: 0

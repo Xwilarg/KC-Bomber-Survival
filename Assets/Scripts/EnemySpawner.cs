@@ -6,6 +6,8 @@ public class EnemySpawner : MonoBehaviour
     private GameObject enemySeaplane, torpedoBomber;
     [SerializeField]
     private PlaneController player;
+    [SerializeField]
+    private GameObject[] powerups;
 
     private struct EnemyPos
     {
@@ -42,7 +44,7 @@ public class EnemySpawner : MonoBehaviour
             foreach (EnemyPos v in formations[Random.Range(0, formations.Length)])
             {
                 GameObject go = Instantiate(v.enemy, v.pos + new Vector2(15f, y), Quaternion.identity);
-                go.GetComponent<EnemyController>().SetPlayer(player);
+                go.GetComponent<EnemyController>().SetPlayer(player, ((Random.Range(0, 100) < 10) ? (powerups[Random.Range(0, powerups.Length)]) : (null)));
                 Destroy(go, 10f);
             }
         }
