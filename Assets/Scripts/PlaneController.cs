@@ -27,7 +27,10 @@ public class PlaneController : MonoBehaviour
     {
         health -= damage;
         if (health <= 0)
+        {
+            health = 0;
             Destroy(gameObject);
+        }
         healthText.text = health + "%";
     }
 
@@ -75,17 +78,31 @@ public class PlaneController : MonoBehaviour
 
     private void Update()
     {
-        transform.Translate(new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical")) * Time.deltaTime * speed);
         fireRateMain -= Time.deltaTime;
         fireRateSub -= Time.deltaTime;
-        if (Input.GetKey(KeyCode.L) && fireRateMain < 0f && mainGunMun > 0)
+#if UNITY_STANDALONE || UNITY_WEBPLAYER || UNITY_EDITOR
+        transform.Translate(new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical")) * Time.deltaTime * speed);
+        if (Input.GetKey(KeyCode.L))
+            FireMain();
+        if (Input.GetKey(KeyCode.M))
+            FireSub();
+#endif
+    }
+
+    public void FireMain()
+    {
+        if (fireRateMain < 0f && mainGunMun > 0)
         {
             fireRateMain = refFireRateMain;
             mainGunMun--;
             Fire(new Vector2(.8f, .8f), mainBulletSpeed, Random.Range(-.1f, .1f));
             mainGunText.text = mainGunMun.ToString();
         }
-        if (Input.GetKey(KeyCode.M) && fireRateSub < 0f && subGunMun > 0)
+    }
+
+    public void FireSub()
+    {
+        if (fireRateSub < 0f && subGunMun > 0)
         {
             fireRateSub = refFireRateSub;
             subGunMun--;
@@ -94,6 +111,12 @@ public class PlaneController : MonoBehaviour
             subGun1Text.text = subGunMun.ToString();
             subGun2Text.text = subGunMun.ToString();
         }
+    }
+
+    public void Move(Vector2 pos)
+    {
+        pos /= 100f;
+        transform.Translate(new Vector2(Mathf.Clamp(pos.x, -1f, 1f), Mathf.Clamp(pos.y, -1f, 1f)) * Time.deltaTime * speed);
     }
 
     private void Fire(Vector2 scale, float bulletSpeed, float yOffset)
