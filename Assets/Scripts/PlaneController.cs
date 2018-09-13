@@ -115,7 +115,6 @@ public class PlaneController : MonoBehaviour
 
     public void Move(Vector2 pos)
     {
-        pos /= 100f;
         transform.Translate(new Vector2(Mathf.Clamp(pos.x, -1f, 1f), Mathf.Clamp(pos.y, -1f, 1f)) * Time.deltaTime * speed);
     }
 

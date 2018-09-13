@@ -1,30 +1,30 @@
 ﻿using UnityEngine;
-using UnityEngine.EventSystems;
 
-public class MoveControls : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
+public class MoveControls : MonoBehaviour
 {
     [SerializeField]
     private PlaneController player;
-    private bool isDown;
+    private RectTransform rect;
+    private Camera cam;
 
     private void Start()
     {
-        isDown = false;
+        rect = GetComponent<RectTransform>();
+        cam = Camera.main;
     }
 
     private void Update()
     {
-        if (isDown)
-            player.Move(Input.mousePosition - new Vector3(125f, 125f, 0f));
-    }
-
-    public void OnPointerDown(PointerEventData eventData)
-    {
-        isDown = true;
-    }
-
-    public void OnPointerUp(PointerEventData eventData)
-    {
-        isDown = false;
+        Rect r = new Rect(new Vector2(rect.position.x, rect.position.y) - rect.sizeDelta / 2, rect.sizeDelta);
+#if UNITY_STANDALONE || UNITY_WEBPLAYER || UNITY_EDITOR
+        if (Input.GetMouseButton(0) && r.Contains(Input.mousePosition))
+            player.Move(-(rect.position - Input.mousePosition) / (rect.sizeDelta.x / 2));
+#elif UNITY_ANDROID || UNITY_IOS
+        foreach (Touch t in Input.touches)
+        {
+            if (r.Contains(t.position))
+                player.Move(-(new Vector2(rect.position.x, rect.position.y) - t.position) / (rect.sizeDelta.x / 2));
+        }
+#endif
     }
 }
