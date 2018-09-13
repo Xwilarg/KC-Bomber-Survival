@@ -54,7 +54,7 @@ public class PlaneController : MonoBehaviour
 
     public void RefillSub()
     {
-        subGunMun = 30;
+        subGunMun += 30;
         if (subGunMun > 60)
             subGunMun = 60;
         subGun1Text.text = subGunMun.ToString();
