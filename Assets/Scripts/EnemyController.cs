@@ -45,7 +45,7 @@ public class EnemyController : MonoBehaviour
             Destroy(gameObject);
             Destroy(collision.gameObject);
         }
-        else
+        else if (collision.CompareTag("Bullet"))
         {
             health--;
             Destroy(collision.gameObject);
