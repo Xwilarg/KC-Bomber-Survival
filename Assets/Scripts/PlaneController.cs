@@ -1,11 +1,12 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 
+[RequireComponent(typeof(Rigidbody2D))]
 public class PlaneController : MonoBehaviour
 {
     // Main: Type 97 aircraft machine guns
     // Sub: Type 99-1 cannon
-    private const float speed = 10f;
+    private const float speed = 500f;
     private const float mainBulletSpeed = 15f;
     private const float subBulletSpeed = 20f;
     private Camera cam;
@@ -22,6 +23,9 @@ public class PlaneController : MonoBehaviour
     private float fireRateSub;
     private const float refFireRateSub = .015f; // 520 rounds per minutes
     private float fireRateMain;
+
+    private Rigidbody2D rb;
+    private Vector2 vel;
 
     public void TakeDamage(int damage)
     {
@@ -74,6 +78,8 @@ public class PlaneController : MonoBehaviour
         subGunMun = 60;
         health = 100;
         nbEscort = 3;
+        vel = Vector2.zero;
+        rb = GetComponent<Rigidbody2D>();
     }
 
     private void Update()
@@ -81,12 +87,14 @@ public class PlaneController : MonoBehaviour
         fireRateMain -= Time.deltaTime;
         fireRateSub -= Time.deltaTime;
 #if UNITY_STANDALONE || UNITY_WEBPLAYER || UNITY_EDITOR
-        transform.Translate(new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical")) * Time.deltaTime * speed);
+        //transform.Translate(new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical")) * Time.deltaTime * speed);
         if (Input.GetKey(KeyCode.L))
             FireMain();
         if (Input.GetKey(KeyCode.M))
             FireSub();
 #endif
+        rb.velocity = vel;
+        vel = Vector2.zero;
     }
 
     public void FireMain()
@@ -115,7 +123,7 @@ public class PlaneController : MonoBehaviour
 
     public void Move(Vector2 pos)
     {
-        transform.Translate(new Vector2(Mathf.Clamp(pos.x, -1f, 1f), Mathf.Clamp(pos.y, -1f, 1f)) * Time.deltaTime * speed);
+        vel = new Vector2(Mathf.Clamp(pos.x, -1f, 1f), Mathf.Clamp(pos.y, -1f, 1f)) * Time.deltaTime * speed;
     }
 
     private void Fire(Vector2 scale, float bulletSpeed, float yOffset)

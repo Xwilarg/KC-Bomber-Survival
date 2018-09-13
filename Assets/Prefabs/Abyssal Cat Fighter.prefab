@@ -23,7 +23,7 @@ GameObject:
   - component: {fileID: 50375514193516392}
   - component: {fileID: 114072738436566906}
   - component: {fileID: 61085807688590684}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Abyssal Cat Fighter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -72,7 +72,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.14216036, y: 0.22339487}
