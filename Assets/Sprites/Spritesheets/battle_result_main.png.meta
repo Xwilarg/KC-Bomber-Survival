@@ -1,0 +1,1946 @@
+fileFormatVersion: 2
+guid: a54ee31f4f4591741b12ba6d2629d827
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: battle_result_main_0
+    21300002: battle_result_main_1
+    21300004: battle_result_main_2
+    21300006: battle_result_main_3
+    21300008: battle_result_main_4
+    21300010: battle_result_main_5
+    21300012: battle_result_main_6
+    21300014: battle_result_main_7
+    21300016: battle_result_main_8
+    21300018: battle_result_main_9
+    21300020: battle_result_main_10
+    21300022: battle_result_main_11
+    21300024: battle_result_main_12
+    21300026: battle_result_main_13
+    21300028: battle_result_main_14
+    21300030: battle_result_main_15
+    21300032: battle_result_main_16
+    21300034: battle_result_main_17
+    21300036: battle_result_main_18
+    21300038: battle_result_main_19
+    21300040: battle_result_main_20
+    21300042: battle_result_main_21
+    21300044: battle_result_main_22
+    21300046: battle_result_main_23
+    21300048: battle_result_main_24
+    21300050: battle_result_main_25
+    21300052: battle_result_main_26
+    21300054: battle_result_main_27
+    21300056: battle_result_main_28
+    21300058: battle_result_main_29
+    21300060: battle_result_main_30
+    21300062: battle_result_main_31
+    21300064: battle_result_main_32
+    21300066: battle_result_main_33
+    21300068: battle_result_main_34
+    21300070: battle_result_main_35
+    21300072: battle_result_main_36
+    21300074: battle_result_main_37
+    21300076: battle_result_main_38
+    21300078: battle_result_main_39
+    21300080: battle_result_main_40
+    21300082: battle_result_main_41
+    21300084: battle_result_main_42
+    21300086: battle_result_main_43
+    21300088: battle_result_main_44
+    21300090: battle_result_main_45
+    21300092: battle_result_main_46
+    21300094: battle_result_main_47
+    21300096: battle_result_main_48
+    21300098: battle_result_main_49
+    21300100: battle_result_main_50
+    21300102: battle_result_main_51
+    21300104: battle_result_main_52
+    21300106: battle_result_main_53
+    21300108: battle_result_main_54
+    21300110: battle_result_main_55
+    21300112: battle_result_main_56
+    21300114: battle_result_main_57
+    21300116: battle_result_main_58
+    21300118: battle_result_main_59
+    21300120: battle_result_main_60
+    21300122: battle_result_main_61
+    21300124: battle_result_main_62
+    21300126: battle_result_main_63
+    21300128: battle_result_main_64
+    21300130: battle_result_main_65
+    21300132: battle_result_main_66
+    21300134: battle_result_main_67
+    21300136: battle_result_main_68
+    21300138: battle_result_main_69
+    21300140: battle_result_main_70
+    21300142: battle_result_main_71
+    21300144: battle_result_main_72
+    21300146: battle_result_main_73
+    21300148: battle_result_main_74
+    21300150: battle_result_main_75
+    21300152: battle_result_main_76
+    21300154: battle_result_main_77
+    21300156: battle_result_main_78
+    21300158: battle_result_main_79
+    21300160: battle_result_main_80
+    21300162: battle_result_main_81
+    21300164: battle_result_main_82
+    21300166: battle_result_main_83
+    21300168: battle_result_main_84
+    21300170: battle_result_main_85
+    21300172: battle_result_main_86
+  externalObjects: {}
+  serializedVersion: 6
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: battle_result_main_0
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 2474
+        width: 361
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2e096c4c83dee94582ef087a502cdb3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battle_result_main_1
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 2474
+        width: 359
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 192ca63517e1ad6409658a3668e3e64b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battle_result_main_2
+      rect:
+        serializedVersion: 2
+        x: 1203
+        y: 2321
+        width: 1205
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be1abc68d59e18c4b97dde18010343ed
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battle_result_main_3
+      rect:
+        serializedVersion: 2
+        x: 2412
+        y: 2136
+        width: 364
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 468a1bbfb558b064d97f5ca2673d6343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battle_result_main_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1800
+        width: 1189
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa356b5cdea471244ba60566048ef456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battle_result_main_5
+      rect:
+        serializedVersion: 2
+        x: 1203
+        y: 2136
+        width: 1205
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23a05358c7b391443ad6b5513142ef19
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battle_result_main_6
+      rect:
+        serializedVersion: 2
+        x: 1203
+        y: 1648
+        width: 1205
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bed00e703d99f3428e34b6115ab5105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battle_result_main_7
+      rect:
+        serializedVersion: 2
+        x: 2499
+        y: 1860
+        width: 190
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 050dbbad6d8c6f944a9fa96aaaeaba4a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battle_result_main_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1333
+        width: 1202
+        height: 444
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21925fcca5b0e454197d73ce9499cbc8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battle_result_main_9
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 1334
+        width: 683
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52fa9e7d6404e7f4cae702be6557da48
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battle_result_main_10
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 1462
+        width: 199
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 663206d31faf5114aadcc814d8cab37a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battle_result_main_11
+      rect:
+        serializedVersion: 2
+        x: 2079
+        y: 1462
+        width: 192
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ba0e40fc63a79843ac6b66bb1b6c1c1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battle_result_main_12
+      rect:
+        serializedVersion: 2
+        x: 2272
+        y: 1567
+        width: 65
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bce1a48c6230a6448d7a053c22559ab
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battle_result_main_13
+      rect:
+        serializedVersion: 2
+        x: 2342
+        y: 1567
+        width: 55
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bb2e4a41bc695b4f9ab86b7413a4ea6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battle_result_main_14
+      rect:
+        serializedVersion: 2
+        x: 2412
+        y: 1404
+        width: 364
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8839af8ed0f4a543a92970df0c90b4c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battle_result_main_15
+      rect:
+        serializedVersion: 2
+        x: 2289
+        y: 1507
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a30cbdfa22a3494187b8dc4c1d79f9a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battle_result_main_16
+      rect:
+        serializedVersion: 2
+        x: 2359
+        y: 1507
+        width: 22
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 638c42df448783e488026d84698dac6f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battle_result_main_17
+      rect:
+        serializedVersion: 2
+        x: 1892
+        y: 1409
+        width: 467
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 837dae9d072df0c4fb2628d334ba8b4a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battle_result_main_18
+      rect:
+        serializedVersion: 2
+        x: 2365
+        y: 1415
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61b8b064956308c4e89ef7f19fa4b6ce
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battle_result_main_19
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 1358
+        width: 82
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ac08da8448b5a142a1d8ab41ef91871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battle_result_main_20
+      rect:
+        serializedVersion: 2
+        x: 1976
+        y: 1359
+        width: 44
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71bff93aee8f62a4b8731f61f925dcf4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battle_result_main_21
+      rect:
+        serializedVersion: 2
+        x: 2026
+        y: 1359
+        width: 44
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d841080c21996a42b0857c097b05f00
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battle_result_main_22
+      rect:
+        serializedVersion: 2
+        x: 2454
+        y: 1244
+        width: 61
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 603fef78ee6475247ad67a981cc7d575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battle_result_main_23
+      rect:
+        serializedVersion: 2
+        x: 2503
+        y: 1244
+        width: 61
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3465158edb141b4bb71d6471f0b6092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battle_result_main_24
+      rect:
+        serializedVersion: 2
+        x: 2607
+        y: 1247
+        width: 154
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ea077da9e7cef54591d293867361827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battle_result_main_25
+      rect:
+        serializedVersion: 2
+        x: 2763
+        y: 1183
+        width: 13
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f00ed49444878044821a6d6fba61172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battle_result_main_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1160
+        width: 2407
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63e77309b4376834c974ea507fddac36
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battle_result_main_27
+      rect:
+        serializedVersion: 2
+        x: 2609
+        y: 1229
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05229a09acb6fa449b687f7eddcd182c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battle_result_main_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 612
+        width: 1946
+        height: 538
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 748e291ba81cb24469d790a5aab17725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battle_result_main_29
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 971
+        width: 938
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ae3abb51807a6048855c720c474f8fc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battle_result_main_30
+      rect:
+        serializedVersion: 2
+        x: 1742
+        y: 1003
+        width: 403
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 466431735075d494e805b0e58fdf51c0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battle_result_main_31
+      rect:
+        serializedVersion: 2
+        x: 2127
+        y: 1004
+        width: 274
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8147a1f9877cade45b5d89aef9f92e3d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battle_result_main_32
+      rect:
+        serializedVersion: 2
+        x: 2415
+        y: 1054
+        width: 187
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b387ac2fb8c52949a2f665bcab7c85b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battle_result_main_33
+      rect:
+        serializedVersion: 2
+        x: 2628
+        y: 1149
+        width: 40
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 193f36baf6d1b0945a36b463823fd899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battle_result_main_34
+      rect:
+        serializedVersion: 2
+        x: 2706
+        y: 1149
+        width: 42
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d3f3e1b39ac712439991a0f80284b9e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battle_result_main_35
+      rect:
+        serializedVersion: 2
+        x: 2615
+        y: 1069
+        width: 63
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d93f6a9ac4ff1c645920f569e70652a5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battle_result_main_36
+      rect:
+        serializedVersion: 2
+        x: 2706
+        y: 1069
+        width: 42
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c58a15b18dce8849b4ecf05a31bffb2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battle_result_main_37
+      rect:
+        serializedVersion: 2
+        x: 2419
+        y: 878
+        width: 181
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c75a3195518e3d140a0142589d7408f8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battle_result_main_38
+      rect:
+        serializedVersion: 2
+        x: 2609
+        y: 973
+        width: 77
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70d95e5be27ac5140864d41d071d213a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battle_result_main_39
+      rect:
+        serializedVersion: 2
+        x: 2705
+        y: 988
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29a6a6202fff1fc4c9e0144e1a8303a4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battle_result_main_40
+      rect:
+        serializedVersion: 2
+        x: 2609
+        y: 929
+        width: 130
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4841180963ef7449a5ecd6c5b9e0afe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battle_result_main_41
+      rect:
+        serializedVersion: 2
+        x: 2740
+        y: 946
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 555ba6455a78fa64eabdf2c57e3b9213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battle_result_main_42
+      rect:
+        serializedVersion: 2
+        x: 1966
+        y: 874
+        width: 27
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9982de86cbefb244b0f72d69d7a7bc7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battle_result_main_43
+      rect:
+        serializedVersion: 2
+        x: 2017
+        y: 862
+        width: 60
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82fa5e53bae14f344ac7cf65bbea9f96
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battle_result_main_44
+      rect:
+        serializedVersion: 2
+        x: 2096
+        y: 874
+        width: 35
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ea49cba8831aa14299fdcf45b78bd86
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battle_result_main_45
+      rect:
+        serializedVersion: 2
+        x: 2147
+        y: 862
+        width: 60
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a574fa341524b3f499b2638f0ee9aa95
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battle_result_main_46
+      rect:
+        serializedVersion: 2
+        x: 2228
+        y: 873
+        width: 33
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 318d52d7cc5e27141868932411ff07bd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battle_result_main_47
+      rect:
+        serializedVersion: 2
+        x: 2609
+        y: 885
+        width: 147
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f69b89dc3bed5e42be6c3721d843b47
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battle_result_main_48
+      rect:
+        serializedVersion: 2
+        x: 2412
+        y: 699
+        width: 194
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf0d91a3695160e4db72c124fee2c841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battle_result_main_49
+      rect:
+        serializedVersion: 2
+        x: 2609
+        y: 837
+        width: 94
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49c5222a21f727549ae417fcbda70bc9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battle_result_main_50
+      rect:
+        serializedVersion: 2
+        x: 2703
+        y: 840
+        width: 52
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9465a7f49b66234c921322d8f982478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battle_result_main_51
+      rect:
+        serializedVersion: 2
+        x: 2608
+        y: 759
+        width: 60
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99d8176b205675543ab8886d468f8781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battle_result_main_52
+      rect:
+        serializedVersion: 2
+        x: 2691
+        y: 770
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87034d033c4a34447a28db64c062c802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battle_result_main_53
+      rect:
+        serializedVersion: 2
+        x: 1648
+        y: 677
+        width: 689
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1207789e9aa68df428d4f43c2a41fe05
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battle_result_main_54
+      rect:
+        serializedVersion: 2
+        x: 2609
+        y: 727
+        width: 154
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f82919f80342cb24db5dee5c7343ab30
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battle_result_main_55
+      rect:
+        serializedVersion: 2
+        x: 2609
+        y: 700
+        width: 92
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83cc460cf8ed84543a04f9009ef2dc23
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battle_result_main_56
+      rect:
+        serializedVersion: 2
+        x: 2703
+        y: 702
+        width: 63
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 355874a8942395242bbceb9012376534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battle_result_main_57
+      rect:
+        serializedVersion: 2
+        x: 1648
+        y: 618
+        width: 597
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ec7f394a0b7b024f8361d94f5252fb9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battle_result_main_58
+      rect:
+        serializedVersion: 2
+        x: 2412
+        y: 521
+        width: 191
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70bbecab2aaf8c5459eed926b1247484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battle_result_main_59
+      rect:
+        serializedVersion: 2
+        x: 2608
+        y: 623
+        width: 65
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ac4eb7061c91064e886b7ad93255379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battle_result_main_60
+      rect:
+        serializedVersion: 2
+        x: 2691
+        y: 634
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcbee7ad20bc8c2428e76cefaedf4608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battle_result_main_61
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 295
+        width: 236
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b49164a497b7c54d84ef10f7acfb71e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battle_result_main_62
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 310
+        width: 221
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f117a6d6552e1a84f92b8099efa8b567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battle_result_main_63
+      rect:
+        serializedVersion: 2
+        x: 2608
+        y: 542
+        width: 65
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4a561c3eca78864cb2750fe976a249d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battle_result_main_64
+      rect:
+        serializedVersion: 2
+        x: 2691
+        y: 553
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a6a87e397174284d8faddc369629047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battle_result_main_65
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 319
+        width: 209
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b79ba73438cfcb48954429ca4b086de
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battle_result_main_66
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 342
+        width: 158
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54811cc0b213dfd4788f4e4c09a68b53
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battle_result_main_67
+      rect:
+        serializedVersion: 2
+        x: 1569
+        y: 340
+        width: 183
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37d25af070befe746918bbe159aba2df
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battle_result_main_68
+      rect:
+        serializedVersion: 2
+        x: 1928
+        y: 319
+        width: 187
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95a66b85bfa2fb246985a18fc3e86cc0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battle_result_main_69
+      rect:
+        serializedVersion: 2
+        x: 2412
+        y: 314
+        width: 353
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dee8ccb503611e4a9b3319dd98b914d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battle_result_main_70
+      rect:
+        serializedVersion: 2
+        x: 2413
+        y: 291
+        width: 110
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8408a7f423f95a2408be44ff9d8657a3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battle_result_main_71
+      rect:
+        serializedVersion: 2
+        x: 2525
+        y: 292
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e25afe4f890d7c64b9f879619733d2fb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battle_result_main_72
+      rect:
+        serializedVersion: 2
+        x: 2544
+        y: 292
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bb157762e958b143b35c4812d09c661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battle_result_main_73
+      rect:
+        serializedVersion: 2
+        x: 2564
+        y: 292
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeea5efacb724694999cdbda4c4fb9e3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battle_result_main_74
+      rect:
+        serializedVersion: 2
+        x: 2581
+        y: 292
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b02097d088a263d4fb392d9033ace1f9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battle_result_main_75
+      rect:
+        serializedVersion: 2
+        x: 2621
+        y: 303
+        width: 91
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb275d26102467f4b9c0aae9126f6caf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battle_result_main_76
+      rect:
+        serializedVersion: 2
+        x: 2713
+        y: 307
+        width: 51
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 994bf68093374954e927c7feed7eee98
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battle_result_main_77
+      rect:
+        serializedVersion: 2
+        x: 2412
+        y: 261
+        width: 108
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3487ecea7ef9d2042956358b47ca38a1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battle_result_main_78
+      rect:
+        serializedVersion: 2
+        x: 2521
+        y: 261
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 166c31b63973af04e9fcd065841cf036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battle_result_main_79
+      rect:
+        serializedVersion: 2
+        x: 2556
+        y: 271
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31da6e50c8ad95c498c58b54b50a7bbe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battle_result_main_80
+      rect:
+        serializedVersion: 2
+        x: 2559
+        y: 0
+        width: 74
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c764cf869842a0842b6936409e110049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battle_result_main_81
+      rect:
+        serializedVersion: 2
+        x: 2626
+        y: 261
+        width: 54
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 089da8266a016bb4fbbecefeb7baa785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battle_result_main_82
+      rect:
+        serializedVersion: 2
+        x: 2683
+        y: 265
+        width: 49
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7581f1983cb3074b94f878e21575f61
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battle_result_main_83
+      rect:
+        serializedVersion: 2
+        x: 2556
+        y: 262
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e992184aac302d2479e5245ba5310621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battle_result_main_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 537
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8cc6421540169341b5cc2a02f697807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battle_result_main_85
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 173
+        width: 337
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f58e4c385a14594e992c1c825fc4698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battle_result_main_86
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 168
+        width: 234
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb8b6485b6b25ce489f4f6ecc037c985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: f6c67e9614dbcbc439c66a681a0f5db2
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

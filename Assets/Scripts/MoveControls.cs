@@ -16,14 +16,23 @@ public class MoveControls : MonoBehaviour
     private void Update()
     {
         Rect r = new Rect(new Vector2(rect.position.x, rect.position.y) - rect.sizeDelta / 2, rect.sizeDelta);
+        float radius = rect.sizeDelta.x / 2;
 #if UNITY_STANDALONE || UNITY_WEBPLAYER || UNITY_EDITOR
         if (Input.GetMouseButton(0) && r.Contains(Input.mousePosition))
-            player.Move(-(rect.position - Input.mousePosition) / (rect.sizeDelta.x / 2));
+        {
+            Vector2 clickPos = rect.position - Input.mousePosition;
+            float dist = Vector2.Distance(Vector2.zero, clickPos);
+            player.Move(-new Vector2((radius * clickPos.x) / dist, (radius * clickPos.y) / dist) / radius);
+        }
 #elif UNITY_ANDROID || UNITY_IOS
         foreach (Touch t in Input.touches)
         {
             if (r.Contains(t.position))
-                player.Move(-(new Vector2(rect.position.x, rect.position.y) - t.position) / (rect.sizeDelta.x / 2));
+            {  
+                Vector2 clickPos = new Vector2(rect.position.x, rect.position.y) - t.position;
+                float dist = Vector2.Distance(Vector2.zero, clickPos);
+                player.Move(-new Vector2((radius * clickPos.x) / dist, (radius * clickPos.y) / dist) / radius);
+            }
         }
 #endif
     }
