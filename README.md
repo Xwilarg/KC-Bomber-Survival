@@ -1,4 +1,7 @@
 # KC-Bomber-Survival
+
+[![GuardRails badge](https://badges.production.guardrails.io/Xwilarg/KC-Bomber-Survival.svg)](https://www.guardrails.io)
+
 KCBS is a small Android video game made with the assets of Kantai Collection
 
 # Disclaimer
