@@ -8,6 +8,7 @@ public class EnemyController : MonoBehaviour
     private int health;
     private PlaneController player;
     private GameObject powerup;
+    private const float speed = -10f;
 
     private void Start()
     {
@@ -23,7 +24,7 @@ public class EnemyController : MonoBehaviour
 
     private void Update()
     {
-        rb.velocity = new Vector2(-5f, 0f);
+        rb.velocity = new Vector2(speed, 0f);
     }
 
     private void OnDestroy()

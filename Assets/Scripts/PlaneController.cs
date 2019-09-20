@@ -6,7 +6,7 @@ public class PlaneController : MonoBehaviour
 {
     // Main: Type 97 aircraft machine guns
     // Sub: Type 99-1 cannon
-    private const float speed = 500f;
+    private const float speed = 600f;
     private const float mainBulletSpeed = 15f;
     private const float subBulletSpeed = 20f;
     private Camera cam;
@@ -96,7 +96,7 @@ public class PlaneController : MonoBehaviour
             FireMain();
         if (Input.GetKey(KeyCode.M))
             FireSub();
-        Move(new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical")) / 1.5f); // TODO: Conflict with the move button on PC
+        transform.Translate(new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical")) * Time.deltaTime * speed / 100f); // TODO: Conflict with the move button on PC
 #endif
         rb.velocity = vel;
         vel = Vector2.zero;

@@ -4,7 +4,7 @@ public class BackgroundScroller : MonoBehaviour
 {
     [SerializeField]
     private bool revert;
-    private const float speed = 3f;
+    private const float speed = 6f;
 
     private void Update()
     {
