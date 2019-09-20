@@ -14,6 +14,8 @@ public class EscortController : MonoBehaviour
 
     private void Update()
     {
+        if (player == null)
+            return;
         // Escort planes follow the player on the Y axis
         transform.position = new Vector2(transform.position.x, player.position.y + offsetY);
     }
