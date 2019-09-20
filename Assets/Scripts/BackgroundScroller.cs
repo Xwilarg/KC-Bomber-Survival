@@ -4,6 +4,8 @@ public class BackgroundScroller : MonoBehaviour
 {
     [SerializeField]
     private bool revert;
+    [SerializeField]
+    private bool moveToFront; // If false, is deleted after reaching left border
     private const float speed = 6f;
 
     private void Update()
@@ -12,6 +14,11 @@ public class BackgroundScroller : MonoBehaviour
         // Once background is out of screen (at the left), we put it back at the right of the screen
         transform.Translate(new Vector2(-speed * ((revert) ? (-1f) : (1f)), 0f) * Time.deltaTime);
         if (transform.position.x < -27f)
-            transform.Translate(new Vector2(72f * ((revert) ? (-1f) : (1f)), 0f));
+        {
+            if (moveToFront)
+                transform.Translate(new Vector2(72f * ((revert) ? (-1f) : (1f)), 0f));
+            else
+                Destroy(gameObject);
+        }
     }
 }

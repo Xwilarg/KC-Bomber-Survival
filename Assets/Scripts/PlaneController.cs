@@ -4,6 +4,12 @@ using UnityEngine.UI;
 [RequireComponent(typeof(Rigidbody2D))]
 public class PlaneController : MonoBehaviour
 {
+    [Header("Game init")]
+    [SerializeField]
+    private BackgroundScroller[] bgs;
+    [SerializeField]
+    private EnemySpawner es;
+
     // Main: Type 97 aircraft machine guns
     // Sub: Type 99-1 cannon
     private const float speed = 600f;
@@ -13,6 +19,7 @@ public class PlaneController : MonoBehaviour
     private int health;
     private int nbEscort;
 
+    [Header("Prefabs")]
     [SerializeField]
     private GameObject bulletPrefab;
     [SerializeField]
@@ -82,6 +89,9 @@ public class PlaneController : MonoBehaviour
         nbEscort = 3;
         vel = Vector2.zero;
         rb = GetComponent<Rigidbody2D>();
+        foreach (var bg in bgs) // When the player start flying, we enable the background scrolling
+            bg.enabled = true;
+        es.enabled = true;
     }
 
     private void Update()
