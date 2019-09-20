@@ -87,11 +87,11 @@ public class PlaneController : MonoBehaviour
         fireRateMain -= Time.deltaTime;
         fireRateSub -= Time.deltaTime;
 #if UNITY_STANDALONE || UNITY_WEBPLAYER || UNITY_EDITOR
-        //transform.Translate(new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical")) * Time.deltaTime * speed);
         if (Input.GetKey(KeyCode.L))
             FireMain();
         if (Input.GetKey(KeyCode.M))
             FireSub();
+        Move(new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical")) / 1.5f);
 #endif
         rb.velocity = vel;
         vel = Vector2.zero;
