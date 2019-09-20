@@ -39,13 +39,13 @@ public class EnemyController : MonoBehaviour
             player.TakeDamage(30);
             Destroy(gameObject);
         }
-        else if (collision.CompareTag("Escort"))
+        else if (collision.CompareTag("Escort")) // One shot escort
         {
             player.DamageEscort();
             Destroy(gameObject);
             Destroy(collision.gameObject);
         }
-        else if (collision.CompareTag("Bullet"))
+        else if (collision.CompareTag("Bullet")) // Take damage
         {
             health--;
             Destroy(collision.gameObject);

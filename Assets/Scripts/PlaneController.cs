@@ -27,6 +27,8 @@ public class PlaneController : MonoBehaviour
     private Rigidbody2D rb;
     private Vector2 vel;
 
+    private const int refillHealthAmount = 30, refillMainAmount = 200, refillSubAmount = 30;
+
     public void TakeDamage(int damage)
     {
         health -= damage;
@@ -46,7 +48,7 @@ public class PlaneController : MonoBehaviour
 
     public void RefillMain()
     {
-        mainGunMun += 200;
+        mainGunMun += refillMainAmount;
         if (mainGunMun > 500)
             mainGunMun = 500;
         mainGunText.text = mainGunMun.ToString();
@@ -54,7 +56,7 @@ public class PlaneController : MonoBehaviour
 
     public void RefillSub()
     {
-        subGunMun += 30;
+        subGunMun += refillSubAmount;
         if (subGunMun > 60)
             subGunMun = 60;
         subGun1Text.text = subGunMun.ToString();
@@ -63,7 +65,7 @@ public class PlaneController : MonoBehaviour
 
     public void RefillHealth()
     {
-        health += 30;
+        health += refillHealthAmount;
         if (health > 100)
             health = 100;
         healthText.text = health + "%";
@@ -84,14 +86,17 @@ public class PlaneController : MonoBehaviour
 
     private void Update()
     {
+        // Delay between 2 shot
         fireRateMain -= Time.deltaTime;
         fireRateSub -= Time.deltaTime;
+
+        // Controls for PC
 #if UNITY_STANDALONE || UNITY_WEBPLAYER || UNITY_EDITOR
         if (Input.GetKey(KeyCode.L))
             FireMain();
         if (Input.GetKey(KeyCode.M))
             FireSub();
-        Move(new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical")) / 1.5f);
+        Move(new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical")) / 1.5f); // TODO: Conflict with the move button on PC
 #endif
         rb.velocity = vel;
         vel = Vector2.zero;

@@ -4,6 +4,7 @@ public class CameraCollisions : MonoBehaviour
 {
     private void Start()
     {
+        // Detect the edges of the camera and put colliders so the player don't go out of the screen
         Camera cam = Camera.main;
         Vector2 camSize = cam.ScreenToWorldPoint(new Vector2(cam.pixelWidth, cam.pixelHeight));
 

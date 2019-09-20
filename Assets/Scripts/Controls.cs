@@ -4,6 +4,7 @@ using UnityEngine.EventSystems;
 
 public class Controls : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
 {
+    // Control button call the corresponding function on the player when pressed
     [SerializeField]
     private UnityEvent toCall;
     private bool isDown;
