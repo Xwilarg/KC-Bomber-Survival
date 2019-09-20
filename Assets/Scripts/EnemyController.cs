@@ -36,7 +36,7 @@ public class EnemyController : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            player.TakeDamage(90);
+            player.TakeDamage(30);
             Destroy(gameObject);
         }
         else if (collision.CompareTag("Escort"))
