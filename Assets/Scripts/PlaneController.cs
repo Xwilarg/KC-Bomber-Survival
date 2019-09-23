@@ -36,6 +36,8 @@ public class PlaneController : MonoBehaviour
 
     private const int refillHealthAmount = 30, refillMainAmount = 200, refillSubAmount = 30;
 
+    private bool canMove;
+
     public void TakeDamage(int damage)
     {
         health -= damage;
@@ -78,6 +80,14 @@ public class PlaneController : MonoBehaviour
         healthText.text = health + "%";
     }
 
+    public void StartMoving()
+    {
+        canMove = true;
+        foreach (var bg in bgs) // When the player start flying, we enable the background scrolling
+            bg.enabled = true;
+        es.enabled = true;
+    }
+
     private void Start()
     {
         cam = Camera.main;
@@ -89,13 +99,14 @@ public class PlaneController : MonoBehaviour
         nbEscort = 3;
         vel = Vector2.zero;
         rb = GetComponent<Rigidbody2D>();
-        foreach (var bg in bgs) // When the player start flying, we enable the background scrolling
-            bg.enabled = true;
-        es.enabled = true;
+        canMove = false;
     }
 
     private void Update()
     {
+        if (!canMove)
+            return;
+
         // Delay between 2 shot
         fireRateMain -= Time.deltaTime;
         fireRateSub -= Time.deltaTime;
