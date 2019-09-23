@@ -132,6 +132,7 @@ GameObject:
   - component: {fileID: 835842}
   - component: {fileID: 835841}
   - component: {fileID: 835843}
+  - component: {fileID: 835844}
   m_Layer: 5
   m_Name: Taihou
   m_TagString: Untagged
@@ -208,7 +209,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e69519acd60f7664599d08d7340f5af1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {x: -11.165804, y: 4.654577}
+  target: {x: -9.145078, y: 4.654577}
   targetGo: {fileID: 938875756}
   timeBeforeStart: 0
   onComplete:
@@ -219,6 +220,23 @@ MonoBehaviour:
   lockX: 0
   lockY: 1
   speed: 10
+--- !u!114 &835844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 835839}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2472ccf1d6a047439278010d1029009, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fighters:
+  - {fileID: 1306815589}
+  - {fileID: 1378895294}
+  - {fileID: 1431525507}
+  bomber: {fileID: 4871986}
 --- !u!1 &4871986
 GameObject:
   m_ObjectHideFlags: 0
@@ -239,7 +257,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &4871987
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -323,7 +341,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4871986}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.44, y: 4.1, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 246149321}
@@ -785,11 +803,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4707489367131404, guid: 4063bc9e716937c448aaa61f78097a1a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.2
+      value: -7.5
       objectReference: {fileID: 0}
     - target: {fileID: 4707489367131404, guid: 4063bc9e716937c448aaa61f78097a1a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.1
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4707489367131404, guid: 4063bc9e716937c448aaa61f78097a1a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -821,6 +839,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1525204491865004, guid: 4063bc9e716937c448aaa61f78097a1a, type: 3}
       propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1525204491865004, guid: 4063bc9e716937c448aaa61f78097a1a, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114934595878467904, guid: 4063bc9e716937c448aaa61f78097a1a,
@@ -1196,7 +1218,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e69519acd60f7664599d08d7340f5af1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {x: -11.165804, y: 4.654577}
+  target: {x: -9.145078, y: 4.654577}
   targetGo: {fileID: 938875756}
   timeBeforeStart: 0.5
   onComplete:
@@ -2077,7 +2099,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e69519acd60f7664599d08d7340f5af1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {x: -11.165804, y: 4.654577}
+  target: {x: -9.145078, y: 4.654577}
   targetGo: {fileID: 938875756}
   timeBeforeStart: 0.75
   onComplete:
@@ -2974,11 +2996,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4707489367131404, guid: 4063bc9e716937c448aaa61f78097a1a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.2
+      value: -7.5
       objectReference: {fileID: 0}
     - target: {fileID: 4707489367131404, guid: 4063bc9e716937c448aaa61f78097a1a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.4
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 4707489367131404, guid: 4063bc9e716937c448aaa61f78097a1a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3010,6 +3032,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1525204491865004, guid: 4063bc9e716937c448aaa61f78097a1a, type: 3}
       propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1525204491865004, guid: 4063bc9e716937c448aaa61f78097a1a, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114934595878467904, guid: 4063bc9e716937c448aaa61f78097a1a,
@@ -3188,7 +3214,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e69519acd60f7664599d08d7340f5af1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {x: -11.165804, y: 4.654577}
+  target: {x: -9.145078, y: 4.654577}
   targetGo: {fileID: 938875756}
   timeBeforeStart: 0.25
   onComplete:
@@ -3406,11 +3432,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4707489367131404, guid: 4063bc9e716937c448aaa61f78097a1a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.2
+      value: -5.5
       objectReference: {fileID: 0}
     - target: {fileID: 4707489367131404, guid: 4063bc9e716937c448aaa61f78097a1a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.8
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4707489367131404, guid: 4063bc9e716937c448aaa61f78097a1a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3438,6 +3464,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1525204491865004, guid: 4063bc9e716937c448aaa61f78097a1a, type: 3}
       propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1525204491865004, guid: 4063bc9e716937c448aaa61f78097a1a, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114934595878467904, guid: 4063bc9e716937c448aaa61f78097a1a,
@@ -3748,12 +3778,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e69519acd60f7664599d08d7340f5af1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {x: -11.165804, y: 4.654577}
+  target: {x: -9.145078, y: 4.654577}
   targetGo: {fileID: 938875756}
   timeBeforeStart: 1.25
   onComplete:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 835844}
+        m_MethodName: Launch
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
   lockX: 0
@@ -3847,7 +3888,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e69519acd60f7664599d08d7340f5af1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {x: -11.165804, y: 4.654577}
+  target: {x: -9.145078, y: 4.654577}
   targetGo: {fileID: 938875756}
   timeBeforeStart: 1
   onComplete:

@@ -52,24 +52,23 @@ public class MoveTowards : MonoBehaviour
             else newY = -1;
         }
 
-        if (newX == 0 && newY == 0)
-        {
-            var cc = GetComponent<PlaneController>();
-            if (cc != null)
-                cc.enabled = true;
-            else
-            {
-                onComplete.Invoke();
-                GetComponent<MoveTowards>().enabled = false;
-            }
-            enabled = false;
-        }
-
         Vector3 newPos = transform.position + new Vector3(newX, newY) * speed * Time.deltaTime;
         if ((isBeforeX && newPos.x > target.x) || (!isBeforeX && newPos.x < target.x))
+        {
             newPos = new Vector3(target.x, newPos.y, 0f);
+            newX = 0;
+        }
         if ((isBeforeY && newPos.y > target.y) || (!isBeforeY && newPos.y < target.y))
+        {
             newPos = new Vector3(newPos.x, target.y, 0f);
+            newY = 0;
+        }
         transform.position = newPos;
+
+        if (newX == 0 && newY == 0)
+        {
+            onComplete.Invoke();
+            enabled = false;
+        }
     }
 }
