@@ -13,11 +13,12 @@ public class MoveTowards : MonoBehaviour
     private bool lockX, lockY;
     [SerializeField]
     private float speed;
-    private float closeEnough;
+    bool isBeforeX, isBeforeY; // If the element is before or after it destination on the X and Y axis
 
     private void Start()
     {
-        closeEnough = speed * 0.1f;
+        isBeforeX = transform.position.x - target.x < 0f;
+        isBeforeY = transform.position.y - target.y < 0f;
     }
 
     private void Update()
@@ -27,20 +28,18 @@ public class MoveTowards : MonoBehaviour
             timeBeforeStart -= Time.deltaTime;
             return;
         }
-        float x = transform.position.x - target.x;
-        float y = transform.position.y - target.y;
         int newX = 0, newY = 0;
 
         if (!lockX)
         {
-            if (x > closeEnough) newX = -1;
-            else if (x < -closeEnough) newX = 1;
+            if (isBeforeX) newX = 1;
+            else newX = -1;
         }
 
         if (!lockY)
         {
-            if (y > closeEnough) newY = -1;
-            else if (y < -closeEnough) newY = 1;
+            if (isBeforeY) newY = 1;
+            else newY = -1;
         }
 
         if (newX == 0 && newY == 0)
@@ -56,6 +55,11 @@ public class MoveTowards : MonoBehaviour
             enabled = false;
         }
 
-        transform.Translate(new Vector2(newX, newY) * speed * Time.deltaTime);
+        Vector3 newPos = transform.position + new Vector3(newX, newY) * speed * Time.deltaTime;
+        if ((isBeforeX && newPos.x > target.x) || (!isBeforeX && newPos.x < target.x))
+            newPos = new Vector3(target.x, newPos.y, 0f);
+        if ((isBeforeY && newPos.y > target.y) || (!isBeforeY && newPos.y < target.y))
+            newPos = new Vector3(newPos.x, target.y, 0f);
+        transform.position = newPos;
     }
 }
