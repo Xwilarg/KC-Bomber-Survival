@@ -4,7 +4,10 @@ using UnityEngine.Events;
 public class MoveTowards : MonoBehaviour
 {
     [SerializeField]
+    [Tooltip("Don't change this variable if the next one is not null")]
     private Vector2 target;
+    [SerializeField]
+    private Transform targetGo;
     [SerializeField]
     private float timeBeforeStart;
     [SerializeField]
@@ -15,8 +18,15 @@ public class MoveTowards : MonoBehaviour
     private float speed;
     bool isBeforeX, isBeforeY; // If the element is before or after it destination on the X and Y axis
 
+    private void OnValidate()
+    {
+        if (targetGo != null)
+            target = targetGo.position;
+    }
+
     private void Start()
     {
+        OnValidate();
         isBeforeX = transform.position.x - target.x < 0f;
         isBeforeY = transform.position.y - target.y < 0f;
     }
