@@ -24,6 +24,10 @@ public class PlaneController : MonoBehaviour
     private GameObject bulletPrefab;
     [SerializeField]
     private Text mainGunText, subGun1Text, subGun2Text, escortText, healthText;
+    [SerializeField]
+    private Slider progression;
+    private float timerProgression;
+    private const float progressionMax = 60f; // Time before winning
     private int mainGunMun, subGunMun;
 
     private const float refFireRateMain = .007f; // 900 rounds per minute
@@ -37,48 +41,6 @@ public class PlaneController : MonoBehaviour
     private const int refillHealthAmount = 30, refillMainAmount = 200, refillSubAmount = 30;
 
     private bool canMove;
-
-    public void TakeDamage(int damage)
-    {
-        health -= damage;
-        if (health <= 0)
-        {
-            health = 0;
-            Destroy(gameObject);
-        }
-        healthText.text = health + "%";
-    }
-
-    public void DamageEscort()
-    {
-        nbEscort--;
-        escortText.text = nbEscort.ToString();
-    }
-
-    public void RefillMain()
-    {
-        mainGunMun += refillMainAmount;
-        if (mainGunMun > 500)
-            mainGunMun = 500;
-        mainGunText.text = mainGunMun.ToString();
-    }
-
-    public void RefillSub()
-    {
-        subGunMun += refillSubAmount;
-        if (subGunMun > 60)
-            subGunMun = 60;
-        subGun1Text.text = subGunMun.ToString();
-        subGun2Text.text = subGunMun.ToString();
-    }
-
-    public void RefillHealth()
-    {
-        health += refillHealthAmount;
-        if (health > 100)
-            health = 100;
-        healthText.text = health + "%";
-    }
 
     public void StartMoving()
     {
@@ -100,12 +62,20 @@ public class PlaneController : MonoBehaviour
         vel = Vector2.zero;
         rb = GetComponent<Rigidbody2D>();
         canMove = false;
+        timerProgression = progressionMax;
     }
 
     private void Update()
     {
         if (!canMove)
             return;
+
+        timerProgression -= Time.deltaTime;
+        progression.value = 100f - (timerProgression * 100f / progressionMax);
+        if (timerProgression <= 0f) // End of the game
+        {
+
+        }
 
         // Delay between 2 shot
         fireRateMain -= Time.deltaTime;
@@ -158,5 +128,47 @@ public class PlaneController : MonoBehaviour
         go.transform.localScale = scale;
         go.GetComponent<Rigidbody2D>().AddForce(new Vector2(bulletSpeed, 0f), ForceMode2D.Impulse);
         Destroy(go, 2);
+    }
+
+    public void TakeDamage(int damage)
+    {
+        health -= damage;
+        if (health <= 0)
+        {
+            health = 0;
+            Destroy(gameObject);
+        }
+        healthText.text = health + "%";
+    }
+
+    public void DamageEscort()
+    {
+        nbEscort--;
+        escortText.text = nbEscort.ToString();
+    }
+
+    public void RefillMain()
+    {
+        mainGunMun += refillMainAmount;
+        if (mainGunMun > 500)
+            mainGunMun = 500;
+        mainGunText.text = mainGunMun.ToString();
+    }
+
+    public void RefillSub()
+    {
+        subGunMun += refillSubAmount;
+        if (subGunMun > 60)
+            subGunMun = 60;
+        subGun1Text.text = subGunMun.ToString();
+        subGun2Text.text = subGunMun.ToString();
+    }
+
+    public void RefillHealth()
+    {
+        health += refillHealthAmount;
+        if (health > 100)
+            health = 100;
+        healthText.text = health + "%";
     }
 }
